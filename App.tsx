@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Leaf, Wind, Heart, Menu, X, ArrowRight, CheckCircle, Sparkles } from 'lucide-react';
+import { Leaf, Wind, Heart, Menu, X, ArrowRight, CheckCircle, Sparkles, Instagram } from 'lucide-react';
 import { Button } from './components/Button';
 import { Section } from './components/Section';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
-import { SERVICES, PROTOCOLS, PACKAGES, NAV_LINKS } from './constants';
+import { SERVICES, PROTOCOLS, PACKAGES, NAV_LINKS, INSTAGRAM_HANDLE } from './constants';
 import { Gender, ServiceCategory } from './types';
 
 // --- Sub-components for cleaner App.tsx ---
@@ -385,6 +385,13 @@ const Footer = () => (
             {link.label}
           </a>
         ))}
+      </div>
+      
+      <div className="flex justify-center mb-8">
+         <a href={`https://instagram.com/${INSTAGRAM_HANDLE}`} target="_blank" rel="noopener noreferrer" className="text-brand-beige/60 hover:text-brand-green transition-colors flex items-center gap-2">
+            <Instagram size={18} />
+            <span className="text-sm tracking-wide">@{INSTAGRAM_HANDLE}</span>
+         </a>
       </div>
 
       <div className="text-xs text-brand-beige/40">

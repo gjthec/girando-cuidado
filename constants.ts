@@ -1,6 +1,7 @@
 import { Gender, PackageDeal, ProtocolItem, ServiceCategory, ServiceItem } from "./types";
 
-export const WHATSAPP_NUMBER = "5511999999999"; // Replace with actual number
+export const WHATSAPP_NUMBER = "555484444320"; 
+export const INSTAGRAM_HANDLE = "_gistachowski";
 
 export const NAV_LINKS = [
   { label: 'Sobre', href: '#sobre' },
