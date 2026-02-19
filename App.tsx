@@ -117,7 +117,7 @@ const About = () => (
     <div className="flex flex-col md:flex-row items-center gap-12">
       <div className="w-full md:w-1/2 relative">
         <div className="aspect-[3/4] rounded-sm overflow-hidden bg-brand-brown/10 shadow-xl max-w-sm mx-auto">
-           <img src="https://i.ibb.co/zhm82G73/wmremove-transformed-1.png" alt="Gi Stachowski Massoterapeuta" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" />
+           <img src="https://i.ibb.co/SwMXKRn5/gio.jpg" alt="Gi Stachowski Massoterapeuta" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" />
         </div>
         <div className="absolute -bottom-6 -right-6 bg-brand-beige p-6 shadow-lg max-w-xs hidden md:block border border-brand-brown/5">
           <p className="font-serif text-brand-brown italic text-lg">"Atendimento com intenção e respeito."</p>
